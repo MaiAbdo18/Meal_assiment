@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+
+@for (product of allProducts; track $index) {
+    <div class="col-md-3">
+
+ <app-card [currentProduct]="product"></app-card>
+
+
+    </div>
+}
+
+
+
+
+    </div>
+</div>
